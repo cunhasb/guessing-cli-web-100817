@@ -2,12 +2,11 @@ require 'pry'
 # Code your solution here!
 def run_guessing_game
   command = nil
+  binding.pry
   until command == "exit"
-    binding.pry
     puts "Guess a number between 1 and 6"
     user_input = gets.chomp.to_i
     if (1...7) === user_input
     end
   end
 end
-
