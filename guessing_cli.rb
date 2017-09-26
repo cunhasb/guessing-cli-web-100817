@@ -8,7 +8,10 @@ def run_guessing_game
     user_input = gets.chomp
     x = rand(1...7)
     if (1...7) === user_input.to_i
-       x === user_input ? puts "You guessed the correct number!" : "The computer guessed"
+       if x === user_input
+         puts "You guessed the correct number!" 
+       else
+         puts "The computer guessed"
     end
   end
 end
