@@ -9,9 +9,10 @@ def run_guessing_game
     x = rand(1...7)
     if (1...7) === user_input.to_i
        if x === user_input
-         puts "You guessed the correct number!" 
+         puts "You guessed the correct number!"
        else
          puts "The computer guessed"
+       end
     end
   end
 end
