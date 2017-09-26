@@ -7,3 +7,7 @@ def run_guessing_game
     user_input = gets.chomp.to_i
     if (1...7) === user_input
       binding.pry
+    end
+  end
+end
+
