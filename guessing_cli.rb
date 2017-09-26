@@ -11,7 +11,7 @@ def run_guessing_game
        if x === user_input
          puts "You guessed the correct number!"
        else
-         puts "The computer guessed"
+         puts "The computer guessed #{x}."
        end
     end
   end
